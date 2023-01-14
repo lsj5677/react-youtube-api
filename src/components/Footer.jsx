@@ -6,6 +6,7 @@ export default function Footer() {
       <a
         href="https://www.linkedin.com/in/agnes-lee-041971189/"
         target="_blank"
+        rel="noreferrer"
       >
         Agnes LinkdIn
       </a>
