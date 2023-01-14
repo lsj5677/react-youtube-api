@@ -1,0 +1,7 @@
+.related-video {
+  @apply flex gap-1 m-2;
+}
+
+.related-videos {
+  @apply h-full overflow-y-auto;
+}

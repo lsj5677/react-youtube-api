@@ -1,0 +1,32 @@
+.video-card-all {
+  cursor: pointer;
+}
+
+.video-card img {
+  @apply w-full rounded-md;
+}
+
+.video-card .title {
+  @apply line-clamp-2;
+  @apply font-semibold;
+  @apply my-2;
+}
+
+.video-card .info-detail {
+  @apply text-sm opacity-80;
+}
+
+/* isList */
+.video-card-list {
+  @apply flex gap-1 mx-2 mb-2;
+}
+
+.info-list {
+  @apply text-sm;
+}
+
+.info-list .title {
+  @apply line-clamp-2;
+  @apply font-semibold;
+  @apply my-2;
+}

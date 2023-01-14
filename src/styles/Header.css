@@ -1,0 +1,27 @@
+header {
+  @apply w-full flex flex-wrap sm:flex-nowrap justify-between items-center;
+  @apply mb-4 p-4;
+  @apply text-2xl;
+  @apply border-b border-zinc-600;
+}
+
+header .logo {
+  @apply flex items-center;
+  /* @apply bg-gradient-to-r from-cyan-500 to-blue-500 px-2; */
+  @apply text-2xl uppercase font-extrabold italic;
+}
+.search-form {
+  @apply w-full flex justify-center flex-auto order-1 sm:-order-none sm:px-2 box-border mt-2 sm:mt-0;
+  @apply text-gray-900 text-sm;
+}
+
+.search-form > input {
+  @apply w-full sm:w-8/12 lg:w-6/12 p-2 outline-none;
+  @apply dark:bg-black dark:text-gray-50;
+  @apply border border-zinc-600 rounded-tl-full rounded-bl-full;
+}
+
+.search-button {
+  @apply border border-l-0 border-zinc-600 rounded-tr-full rounded-br-full px-4 box-border;
+  @apply dark:bg-zinc-600 dark:text-white;
+}

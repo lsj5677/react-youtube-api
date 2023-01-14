@@ -1,0 +1,17 @@
+.channel-info {
+  @apply flex items-center;
+  @apply my-4 mb-8;
+}
+
+.channel-thumb {
+  @apply w-10 h-10 mr-4;
+  @apply rounded-full border;
+}
+
+.channel-thumb > img {
+  @apply rounded-full;
+}
+
+.channel-title {
+  @apply text-lg font-medium;
+}

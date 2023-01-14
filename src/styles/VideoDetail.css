@@ -1,0 +1,24 @@
+.video-detail-section {
+  @apply flex flex-col lg:flex-row;
+  @apply p-4 2xl:p-0 box-border;
+}
+
+.video-detail-section .video-detail {
+  @apply basis-4/6;
+}
+
+.video-detail-section .video-info {
+  @apply py-8 px-4;
+}
+
+.video-detail-section .video-info .desc {
+  @apply whitespace-pre-wrap;
+}
+
+.video-detail-section .video-info .video-title {
+  @apply text-xl font-semibold;
+}
+
+.video-detail-section .related-videos {
+  @apply basis-2/6;
+}

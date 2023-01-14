@@ -1,0 +1,5 @@
+.video-wrap {
+  @apply grid grid-cols-1 gap-2 gap-y-4;
+  @apply sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5;
+  @apply p-4 2xl:p-0 box-border;
+}
