@@ -1,10 +1,10 @@
 # Agtube 🎞
 
 Agtube means literally Agnes + Youtube.
-I built a this website that using Youtube Open API.
-It can select the darkmode and see the list and detail pages, related videos, also can search as keyword.
+I built this website with Youtube Open API.
+You can select the darkmode and see the list and detail pages, related videos, and also can search by keywords.
 
-I used `flex` layout for responsive and `@apply` of TailwindCSS for easier maintenance.
+I used `flex` layout for a responsive and `@apply` of TailwindCSS for an easy maintenance.
 
 You can see [Agtube](https://agtube.netlify.app/).
 

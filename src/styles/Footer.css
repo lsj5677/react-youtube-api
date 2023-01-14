@@ -1,0 +1,8 @@
+footer {
+  @apply py-8 border-t-zinc-500;
+  @apply text-right;
+}
+
+footer > a {
+  @apply bg-gradient-to-r from-cyan-500 to-blue-500 p-2;
+}
